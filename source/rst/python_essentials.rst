@@ -1054,7 +1054,7 @@ Here's one solution:
     for letter in string:
         if letter == letter.upper() and letter.isalpha():
             count += 1
-    return count
+        return count
     f('The Rain in Spain')
 
 
